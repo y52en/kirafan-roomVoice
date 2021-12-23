@@ -63,7 +63,7 @@ import "handsontable/dist/handsontable.full.css";
       } else if (id_str.match(/^21\d{3}$/)) {
         return [1, "平日"];
       } else if (id_str.match(/^22\d{3}$/)) {
-        return [2, "土日"];
+        return [2, "休日"];
       } else {
         throw new Error("unknown type");
       }
