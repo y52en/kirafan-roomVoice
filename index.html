@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="jp">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="loading w100">loading...</div>
+
+    <input
+      type="button"
+      class="loaded download_xlsx"
+      value="Download as xlsx(エクセルで利用できます)"
+    />
+    <div class="display-none loaded" id="table"></div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
